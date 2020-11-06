@@ -1,25 +1,22 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: none; */
 }
 
-a {
-    text-decoration: none;
-    color: rgb(236, 236, 236);
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header--dark {
-    background-color: rgb(51,57,64);
+    background-color: rgb(51, 57, 64);
     color: rgb(236, 236, 236);
-    padding: 2.4rem;
-    height: 15vh;
+    padding: 1.5rem 1rem;
 }
 
 .header__title {
     display: inline;
-    font-size: 1.2rem;
-    float: left;
+    font-size: 1.25rem;
 }
 
 .header__search {
@@ -32,55 +29,54 @@ a {
     border-bottom-left-radius: 4px;
     padding: 0.375rem 0.75rem;
     font-size: 1.2rem;
-    border: none;
-    float: left;
+    border-color: transparent;
+}
+
+.search__input:hover {
+    border-color: rgb(128, 189, 255);
+    /* border-color: rgb(255, 193, 7); Ez azért, hogy feltűnő legyen*/
 }
 
 .search__btn {
-    background-color: rgb(0,123,255);
+    float: right;
+    background-color: rgb(0, 123, 255);
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    text-align: center;
-    padding: 0.375rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     font-size: 1.2rem;
+    color: rgb(236, 236, 236);
     border: none;
 }
 
-main {
-    display: inline;
-}
-
 .main__nav {
-    background-color: rgb(33,37,41);
-    float: left;
-    min-width: 15%;
-    color: rgb(236, 236, 236);
-    height: 85vh;
+    background-color: rgb(33, 37, 41);
+    color: rgb(236, 236, 236)
 }
 
-.nav__ul {
+.main__nav ul {
+    margin: 0;
+}
+
+.main__nav h4 {
+    margin: 0;
+}
+
+.main__nav li {
     list-style: none;
 }
 
-.nav__ul li {
-    margin: .5rem;
+.main__nav a {
+    text-decoration: none;
+    color: rgb(236, 236, 236);
 }
 
+.content {
+    padding: 1.5rem 1rem;
+}
 .main__breadcrumb {
-    background-color: rgb(233,236,239);
+    background-color: rgb(233, 236, 239);
     border-radius: .25rem;
-    padding: 1rem 1.5rem;
-}
-
-.main__cards {
-    display: inline;
-}
-
-.main__card {
-    float: left;
-    /* margin: 2.5%; */
-    min-width: 20%;
-    padding: .625rem;
+    padding: 1.5rem 1rem;
 }
 
 .card__top {
@@ -91,21 +87,40 @@ main {
 .card__bottom {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
-
 }
 
+.main__cards {
+    display: inline;
+}
+
+.main__card {
+    float: left;
+    width: 24%;
+    /* margin: 1%; */
+    padding: 2%;
+    border-radius: .25rem;
+}
+/* .main__card {
+    border-radius: .25rem;
+} */
+
 .main__card--blue {
-    background-color: rgb(0,123,255);
+    background-color: rgb(0, 123, 255);
+    /* margin-right: 1.2%; */
 }
 
 .main__card--yellow {
-    background-color: rgb(255,193,7);
+    background-color: rgb(255, 193, 7);
+    /* margin-right: .6%; */
 }
 
 .main__card--green {
-    background-color: rgb(40,167,69);
+    background-color: rgb(40, 167, 69);
+    /* margin-left: .6%; */
 }
 
 .main__card--red {
-    background-color: rgb(220,53,69);
+    background-color: rgb(220, 53, 69);
+    /* margin-left: 1.2%; */
+
 }
