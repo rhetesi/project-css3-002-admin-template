@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+
+.header--dark {
+    background-color: rgb(51,57,64);
+    color: rgb(236, 236, 236);
+    padding: 2.4rem;
+    height: 15vh;
+}
+
+.header__title {
+    display: inline;
+    font-size: 1.2rem;
+    float: left;
+}
+
+.header__search {
+    display: inline;
+    float: right;
+}
+
+.search__input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.search__btn {
+    background-color: rgb(0,123,255);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+main {
+    display: inline;
+}
+
+.main__nav {
+    background-color: rgb(33,37,41);
+    float: left;
+    min-width: 15%;
+    color: rgb(236, 236, 236);
+    height: 85vh;
+}
+
+.nav__ul {
+    list-style: none;
+}
+
+.nav__ul li {
+    margin: .5rem;
+}
+
+.main__breadcrumb {
+    background-color: rgb(233,236,239);
+    border-radius: .25rem;
+    padding: 1rem 1.5rem;
+}
+
+.main__cards {
+    display: inline;
+}
+
+.main__card {
+    float: left;
+    /* margin: 2.5%; */
+    min-width: 20%;
+    padding: .625rem;
+}
+
+.card__top {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.card__bottom {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+
+}
+
+.main__card--blue {
+    background-color: rgb(0,123,255);
+}
+
+.main__card--yellow {
+    background-color: rgb(255,193,7);
+}
+
+.main__card--green {
+    background-color: rgb(40,167,69);
+}
+
+.main__card--red {
+    background-color: rgb(220,53,69);
+}
