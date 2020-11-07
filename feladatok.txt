@@ -83,3 +83,13 @@ Opcionális
 700px alatt a bal oldali menü legyen kesekenyebb és csak a menüpontok ikonjai látsszanak.
 KÉSZ 700px alatt a kártyák egymás alatt legyenek.
 Minta
+
+
+!!! ELKÉSZÍTENDŐ !!!
+
+header__search
+
+A szegély színére állíts be egy áttünést, ami .15 másodpercig tart.
+Ha megkapja a fókuszt, akkor a szegély színe 128,189,255 legyen.
+
+Emiatt az egész header__dark elemet átszervezni!!!
