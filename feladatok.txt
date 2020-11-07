@@ -36,8 +36,8 @@ KÉSZ Az input elem oszálya "search__input" legyen.
 !!! KÉSZ Legyen a bal felős és a ???jobb alsó??? sarka 4 pixelre lekerekítve.
 KÉSZ A jobb bal padding 0.75, a felső alsó 0.375 legyen a roothoz viszonyítva.
 KÉSZ A betűmérete 1.2 legyen a roothoz viszonyítva.
-A szegély színére állíts be egy áttünést, ami .15 másodpercig tart.
-Ha megkapja a fókuszt, akkor a szegély színe 128,189,255 legyen.
+KÉSZ??? A szegély színére állíts be egy áttünést, ami .15 másodpercig tart.
+KÉSZ Ha megkapja a fókuszt, akkor a szegély színe 128,189,255 legyen.
 KÉSZ A gomb elem oszálya "search__btn" legyen.
 KÉSZ A gomb háttérszíne 0,123,255 legyen.
 KÉSZ A nagyító ikont keresd meg a font-awesome ikonon között és jelenítsd meg a gomb közepén a minta alapján.
@@ -89,7 +89,7 @@ Minta
 
 header__search
 
-A szegély színére állíts be egy áttünést, ami .15 másodpercig tart.
-Ha megkapja a fókuszt, akkor a szegély színe 128,189,255 legyen.
+KÉSZ??? A szegély színére állíts be egy áttünést, ami .15 másodpercig tart.
+KÉSZ Ha megkapja a fókuszt, akkor a szegély színe 128,189,255 legyen.
 
 Emiatt az egész header__dark elemet átszervezni!!!
