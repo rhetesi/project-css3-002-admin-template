@@ -76,10 +76,10 @@ KÉSZ main__card--green: 40,167,69
 KÉSZ main__card--red: 220,53,69
 
 KÉSZ Állíts be áttűnést a háttérszínre az összes alsó és felső div esetén, .3 másodperc időtartamban.
-A divek tartalma a minta szerint legyen elkészítve.
+KÉSZ??? A divek tartalma a minta szerint legyen elkészítve.
 
 
 Opcionális
 700px alatt a bal oldali menü legyen kesekenyebb és csak a menüpontok ikonjai látsszanak.
-700px alatt a kártyák egymás alatt legyenek.
+KÉSZ 700px alatt a kártyák egymás alatt legyenek.
 Minta

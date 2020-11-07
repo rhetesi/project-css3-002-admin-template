@@ -80,7 +80,6 @@ h1 {
 
 .main__nav h4 {
     margin: 0;
-    /* padding: 1.5rem 0; */
 }
 
 .main__nav li {
@@ -97,7 +96,6 @@ h1 {
 .main__nav a {
     text-decoration: none;
     color: rgb(236, 236, 236);
-    /* padding: 1rem 0; */
 }
 
 .content {
@@ -109,10 +107,14 @@ h1 {
     padding: 1.5rem 1rem;
 }
 
-
 .main__cards {
     display: inline;
-    
+}
+
+@media screen and (max-width: 700px) {
+    .main__card {
+        min-width: 100%;
+    }
 }
 
 .main__card {
@@ -159,7 +161,6 @@ h1 {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     background-color: rgb(255, 193, 7);
-    /* padding: 1.5rem 1rem; */
 }
 
 .main__card--yellow .card__top:hover {
