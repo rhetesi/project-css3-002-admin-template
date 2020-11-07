@@ -123,62 +123,109 @@ h1 {
     margin-top: 1rem;
 }
 
+.card__top {
+    padding: 1.5rem 1rem;
+}
+
+.card__bottom {
+    padding: 1rem;
+}
 
 .main__card--blue .card__top {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     background-color: rgb(0, 123, 255);
-    padding: 1rem;
+}
+
+.main__card--blue .card__top:hover {
+    transition-property: background-color;
+    background-color: rgb(0, 123, 200);
+    transition-duration: .3s;
 }
 
 .main__card--blue .card__bottom {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     background-color: rgb(0, 123, 255);
-    padding: 1rem;
 }
 
+.main__card--blue .card__bottom:hover {
+    transition-property: background-color;
+    background-color: rgb(0, 123, 200);
+    transition-duration: .3s;
+}
 
 .main__card--yellow .card__top {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     background-color: rgb(255, 193, 7);
-    padding: 1rem;
+    /* padding: 1.5rem 1rem; */
+}
+
+.main__card--yellow .card__top:hover {
+    transition-property: background-color;
+    background-color: rgb(220, 193, 0);
+    transition-duration: .3s;
 }
 
 .main__card--yellow .card__bottom {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     background-color: rgb(255, 193, 7);
-    padding: 1rem;
+}
+
+.main__card--yellow .card__bottom:hover {
+    transition-property: background-color;
+    background-color: rgb(220, 193, 0);
+    transition-duration: .3s;
 }
 
 .main__card--green .card__top {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     background-color: rgb(40, 167, 69);
-    padding: 1rem;
+}
+
+.main__card--green .card__top:hover {
+    transition-property: background-color;
+    background-color: rgb(40, 147, 69);
+    transition-duration: .3s;
 }
 
 .main__card--green .card__bottom {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     background-color: rgb(40, 167, 69);
-    padding: 1rem;
+}
+
+.main__card--green .card__bottom:hover {
+    transition-property: background-color;
+    background-color: rgb(40, 147, 69);
+    transition-duration: .3s;
 }
 
 .main__card--red .card__top {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     background-color: rgb(220, 53, 69);
-    padding: 1rem;
+}
+
+.main__card--red .card__top:hover {
+    transition-property: background-color;
+    background-color: rgb(190, 53, 69);
+    transition-duration: .3s;
 }
 
 .main__card--red .card__bottom {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     background-color: rgb(220, 53, 69);
-    padding: 1rem;
+}
+
+.main__card--red .card__bottom:hover {
+    transition-property: background-color;
+    background-color: rgb(190, 53, 69);
+    transition-duration: .3s;
 }
 
 .card__bottom span {
