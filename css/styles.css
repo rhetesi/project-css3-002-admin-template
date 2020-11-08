@@ -139,6 +139,7 @@ h1 {
     padding: 1rem;
     transition-property: background-color;
     transition-duration: .3s;
+    border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 /* Blue */
@@ -193,7 +194,7 @@ h1 {
     background-color: rgb(220, 53, 69);
 }
 
-/*  ---  Hover TRANSITION
+/*  ---  Hover TRANSITION ---
 
 .main__card--blue.trans .card__bottom {
     transition-property: background-color;
