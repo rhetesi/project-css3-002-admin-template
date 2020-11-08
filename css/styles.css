@@ -111,19 +111,23 @@ h1 {
 }
 
 .main__cards {
-    display: inline;
+    display: flex;
 }
 
 @media screen and (max-width: 700px) {
+    .main__cards {
+        flex-direction: column;
+    }
+
     .main__card {
         min-width: 100%;
     }
 }
 
 .main__card {
-    float: left;
     width: 25%;
-    padding: .5%;
+    /* padding: .5%; */
+    padding: .5rem;
     color: rgb(236, 236, 236);
     margin-top: 1rem;
 }
